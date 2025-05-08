@@ -1,24 +1,15 @@
-//
-//  ContentView.swift
-//  appleWalletPass
-//
-//  Created by Jett Mu on 2025-05-08.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text("Hello, World!")  // This displays "Hello, World!" on the screen
+            .font(.largeTitle)  // Optional: make the text larger
+            .padding()           // Optional: add some padding around the text
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
